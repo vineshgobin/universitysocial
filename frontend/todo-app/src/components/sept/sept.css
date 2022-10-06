@@ -1,0 +1,562 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    background-image: url("../Images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body{
+    background:none !important;
+  }  
+
+.Profile {
+    margin: 150px 20px 0px;
+    border-style: solid;
+    text-align: left;
+}
+
+.profileField {
+    text-align: left;
+    margin-left: 30px;
+}
+
+input {
+  border:2px solid #456879;
+	border-radius:10px;
+	height: 50px;
+	width: 300px;
+}
+
+#profileName {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+#profileSid {
+    font-size: 20px;
+}
+
+#profileCourseLabel {
+    font-size: 30px;
+}
+
+#profileCourse {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#profileBio {
+    font-size: 14px;
+}
+
+.box{
+    background:white;
+    width:300px;
+    height:325px;
+    border-radius:6px;
+    margin: 0 auto 0 auto;
+    padding:40px 30px 10px 30px;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  .name{
+    background:#ecf0f1;
+    border: #ccc 1px solid;
+    padding: 8px;
+    width:250px;
+    color:#AAAAAA;
+    margin-top:45px;
+    font-size:1em;
+    border-radius:4px;
+  }
+  
+  .password{
+    border-radius:4px;
+    background:#ecf0f1;
+    border: #ccc 1px solid;
+    padding: 8px;
+    width:250px;
+    font-size:1em;
+    margin-top: 30px;
+  }
+  
+  .btn{
+    background:#2793ae;
+    width:125px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+    border-radius:4px;
+    border: #2793ae 1px solid;
+    
+    margin-top:5px;
+    margin-bottom:20px;
+    float:center;
+    font-weight:800;
+    font-size:0.8em;
+  }
+
+  .btn2{
+    background:#2793ae;
+    width:200px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+    border-radius:4px;
+    border: #2793ae 1px solid;
+    
+    margin-top:20px;
+    margin-bottom:20px;
+    float:center;
+    font-weight:800;
+    font-size:0.8em;
+  }
+  
+  .btn:hover {
+    background:rgb(44, 150, 192); 
+    cursor: pointer;
+  }
+
+  .btn2:hover {
+    background:rgb(44, 150, 192); 
+    cursor: pointer;
+    
+  }
+
+  .logmessage {
+    padding-top: 200px;
+  }
+
+.results {
+    margin: 50px;
+}
+
+.singleResult {
+    border-style: solid;
+    margin-top: -3px;
+    text-align: left;
+}
+
+.resultName {
+    margin-left: 30px;
+}
+
+.resultSubtext {
+    margin-left: 20px;
+}
+/* Registration */
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 2px solid #d65e5e;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: 20%;
+    background-color: #c73a3a;
+    color: white;
+    padding: 14px 20px;
+    margin: px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .signupbtn {
+    width: 20%;
+    background-color: #4CAF50; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+  
+  /* Add padding to container elements */
+  .Registration {
+    padding: 26px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+  
+  :root {
+  --main-color: #c73a3a;
+  --secondary-color: white;
+  --main-text-color: #3e5869;
+  --secondary-text-color: #b0c7d6;
+  --send-message-form: #F5F5F5;
+}
+
+
+/*
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+  font-weight: 200;
+  color: #3e5869; 
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: var(--secondary-color);
+  background: var(--main-color);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+.send-message-form {
+  background: var(--send-message-form);
+  display: flex;
+  box-sizing: border-box;
+  height: 60px;
+}
+.send-message-form input {
+  width: 100%;
+  padding: 15px 10px;
+  border: none;
+  margin: 0;
+  background: var(--send-message-form);
+  font-weight: 200;
+  
+}
+
+.send-message-form input:focus {
+  outline-width: 0;
+}
+
+.send-message-form input::placeholder {
+  color: black;
+}
+
+
+input[type=submit] {
+  width: 10%;
+  background-color: #c73a3a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #d89b9b;
+}
+
+
+.message-list {
+  background: var(--main-color);
+  color: var(--secondary-color);
+  padding: 4px 8px;
+  border-radius: 8px;
+  width:15%;
+
+}
+
+/* Chat: */
+:root {
+    --main-color: #c73a3a;
+    --secondary-color: white;
+    --main-text-color: #3e5869;
+    --secondary-text-color: #b0c7d6;
+    --send-message-form: #F5F5F5;
+  }
+  
+  
+  /*
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    font-weight: 200;
+    color: #3e5869; 
+  }
+  */
+  .App-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: var(--secondary-color);
+    background: var(--main-color);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .App-title {
+    font-size: 1.5em;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+  
+  
+  .send-message-form {
+    background: var(--send-message-form);
+    display: flex;
+    box-sizing: border-box;
+    height: 60px;
+  }
+  .send-message-form input {
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    margin: 0;
+    background: var(--send-message-form);
+    font-weight: 200;
+    
+  }
+  
+  .send-message-form input:focus {
+    outline-width: 0;
+  }
+  
+  .send-message-form input::placeholder {
+    color: black;
+  }
+  
+  
+  input[type=submit] {
+    width: 10%;
+    background-color: #c73a3a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #d89b9b;
+  }
+  
+  
+  .message-list {
+    background: var(--main-color);
+    color: var(--secondary-color);
+    padding: 4px 8px;
+    border-radius: 8px;
+    width:15%;
+  
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+
+  .container_mini_profile {
+    background:white;
+    width:250px;
+    height:275px;
+    border-radius:6px;
+    margin: 0 auto 0 auto;
+    margin-left: 271px;
+    margin-top: 20px;
+    padding: 20px 30px 10px 30px;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  .avatar_mini {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px
+  }
+
+  .container_left {
+    text-align: left;
+  }
+
+  .icon {
+    width: 10px;
+    height: 10px;
+    padding: 0px;
+    margin-right: 10px;
+  }
+
+  .icon_id {
+    width: 10px;
+    height: 10px;
+    padding: 0px;
+    margin-right: 15px;
+  }
+
+  .container_profile {
+    background:white;
+    width:550px;
+    height:575px;
+    border-radius:6px;
+    margin: 0 auto 0 auto;
+    padding: 20px 30px 10px 30px;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  .icon-profile {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin-right: 10px;
+  }
+
+  .icon-id-profile {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin-right: 15px;
+  }
+
+  .container_left_profile_name{
+    text-align: center;
+    font-size: 60px;
+    text-transform: capitalize;
+  }
+
+  .container_left_profile_bio{
+    text-align: left;
+    font-size:20px;
+    text-transform: capitalize;
+    padding-left: 20px;
+  }
+
+  .container_left_profile{
+    text-align: left;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 220px;
+  }
+
+  .btn_profile{
+    background:#2793ae;
+    width:125px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+    border-radius:4px;
+    border: #2793ae 1px solid;
+    margin-top: 20px;
+    margin-bottom:20px;
+    float:center;
+    font-weight:800;
+    font-size:0.8em;
+  }
+
+  .container_search_profile {
+    background:white;
+    width:500px;
+    height:200px;
+    border-radius:6px;
+    margin: 0 auto 0 auto;
+    margin-top: 20px;
+    padding: 20px 30px 10px 30px;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  input.search-input {
+    margin: 5px 0 20px 0;
+    width: 300px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    height: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .btn_search {
+    background:#eb1e1e;
+    height: 40px;
+    width:80px;
+    padding: 0;
+    margin: 0;
+    color:white;
+    border-radius:4px;
+    float:center;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }

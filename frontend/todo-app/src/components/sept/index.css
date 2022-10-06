@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.container_posts {
+    padding-top: 10px
+}
+
+.container_login {
+    padding-top: 200px;
+    height: 100px;
+}
+
+.image {
+    width: 60%;
+    height: auto;
+    opacity: 0.8;
+    padding-top: 50px;
+}
+
+.username {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: darkblue;
+    font: bold;
+    margin-bottom: 10px;
+}
